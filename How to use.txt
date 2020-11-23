@@ -1,17 +1,24 @@
-1. Install Ruby: Windows (https://rubyinstaller.org/)
+Requirements:
+1. Download Ruby: Windows (https://rubyinstaller.org/)
 2. Download Driver: Chromedriver (http://chromedriver.chromium.org/) or Geckodriver (https://github.com/mozilla/geckodriver/releases) latest version
-3. Browser: Google Chrome or Mozilla Firefox latest version
+3. Browser: Google Chrome or Mozilla Firefox latest version 
 
+Instalasi:
 4. Setelah mendownload Ruby dari URL di atas, berikutnya, install Ruby.
-5. Copy-kan Chromedriver atau Geckodriver ke folder bin di tempat instalasi Ruby tadi. Misal: C:\Ruby24-x64\bin
-6. Kita harus mengatur Environment Variable untuk Ruby, dengan cara: Klik kanan My Computer > Klik Properties > Klik Advance system settings > Klik Environment Variables > Klik PATH > Klik Edit.
-7. Ketikkan ;C:\NamaFolderInstalasiRuby\bin di posisi paling belakang.
+5. Copy Chromedriver atau Geckodriver ke folder bin di folder instalasi Ruby sebelumnya.
+   Misal: C:\Ruby24-x64\bin
+6. Atur Environment Variable untuk Ruby, 
+   dengan cara: Klik kanan My Computer > Klik Properties > Klik Advance system settings > Klik Environment Variables > Klik PATH > Klik Edit.
+7. Ketik ;C:\NamaFolderInstalasiRuby\bin di posisi paling belakang.
 8. Klik OK > Klik OK > Klik OK
-9. Instal gem menggunakan Command Prompt (CMD), jalankan CMD.
-10. Ketikkan gem install selenium-webdriver > tekan Enter dan tunggu hingga instalasi selesai.
-11. Ketikkan gem install cucumber > tekan Enter dan tunggu hingga instalasi selesai.
-12. Ketikkan gem install bundler > tekan Enter dan tunggu hingga instalasi selesai.
-13. Ketikkan gem install rspec > tekan Enter dan tunggu hingga instalasi selesai.
+9. Install gem menggunakan Command Prompt (CMD), jalankan CMD.
+10. Ketikkan "gem install selenium-webdriver"> tekan Enter dan tunggu hingga instalasi selesai.
+11. Ketikkan "gem install cucumber" > tekan Enter dan tunggu hingga instalasi selesai.
+12. Ketikkan "gem install bundler" > tekan Enter dan tunggu hingga instalasi selesai.
+13. Ketikkan "gem install rspec" > tekan Enter dan tunggu hingga instalasi selesai.
 
-untuk menjalankan automation testnya, buka folder dan jalankan CMD di folder tsb..
-lalu ketik "cucumber", lalu test akan berjalan otomatis
+Untuk menjalankan automation test,
+Step:
+1. Buka salah satu folder pada git 
+2. Balankan CMD di folder tsb.
+3. Ketik "cucumber", lalu test akan berjalan otomatis
