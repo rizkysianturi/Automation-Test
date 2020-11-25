@@ -38,10 +38,10 @@ Then('user do Task') do
   # driver.find_element(:id, 'dropzoneAdd').click
   element = driver.find_element(:id, 'dropzoneAdd')
 
-  element.send_keys('..\\Capture.png')
+  # element.send_keys('..\\Capture.png')
 
   button = driver.find_element(:id, 'create_button')
-  button = click()
+  button.click()
 
 end
 
